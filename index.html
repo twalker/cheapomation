@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>cheapoMation</title>
+	<style>
+		body {background-color: #fff; font-family: mono;}
+		#iframe-runner {width:50%; height:400px; border:none; float:right;}
+		body.passed{ background-color: #D4ED91;}
+		body.failed{ background-color: #CC1100 /*#FFE4E1*/;}
+		ul li div.result {padding:0.25em;}
+		ul li div.result.passed { color: green; background-color: #C6E746; }
+		ul li div.result.failed { color: #710909; background-color: #EE5757; }
+	</style>
+	<script src="lib/qunit.js"></script>
+	<script src="lib/jquery-1.5.2.js"></script>
+	<script src="cheapoMation.js"></script>
+</head>
+<body>
+  <h2>cheapoMation: <a id="cheapomate" href="#run">run all tests</a></h2>
+	<iframe id="iframe-runner" name="iframe-runner" src=''></iframe>
+	
+	<h4>/examples</h4>
+	<ul>
+		<li><a href="examples/string.html">string</a></li>
+		<li><a href="examples/function.html">function</a></li>
+	</ul>
+
+</body>
+</html>
