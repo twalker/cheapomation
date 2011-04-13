@@ -13,10 +13,12 @@ Use cheapoMation right away, but discard it like a pair of smelly socks once
 you've found your true automation tools. 
 
 ###To add a QUnit test file to the collection:
+
 * Add an existing or new QUnit test page that includes **cheapoMation.publishDone.js**
 * Add a link to the list on the index page.
-.
+
 ####For example, to test a file named **polyfills/function.js**
+
 * Create a QUnit test file in **examples/function_test.js**
 * Copy **_template.html** as an HTML stub to **examples/function.html**
 * Update script references in function.html to the script and it's corresponding test file.
