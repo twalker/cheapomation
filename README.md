@@ -26,6 +26,5 @@ you've found your true automation tools.
 * Browse to **index.html** with your server of choice.
 * Spend far too long choosing different red and green colors--since my choices sucked.
 
-####TODO:
-* on iframe error (404, etc.), go blood red
+
 
